@@ -5,15 +5,15 @@
 }
 header{
     display: flex;
-    background-color: gray;
+    background-color: #1F2937;
     flex-flow: column wrap;
     padding: 16px;
+    color: #f9faf7;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid 1px red;
     padding: 8px;
 }
 .logo{
@@ -26,28 +26,30 @@ nav ul{
     display: flex;
     flex-basis: 50%;
     justify-content: space-between;
-    border: solid 1px green;
 }
 nav li{
     font-size: 17px;
-    /* padding: 5px; */
+    padding: 5px;
+    /* border: solid 1px eed; */
 }
 nav li a{
     text-decoration: none;
     color: #cfcfcf;
 }
 .headerBody{
-    border: solid 1px red;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
 }
-.title h1{
-    font-size: 5em;
-    font-family: 'Times New Roman', Times, serif;
-}
-.image{
+.title{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    padding: 2%;
     height: 300px;
-    width: 300px;
+}
+.title h1{
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
 }
