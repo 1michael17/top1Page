@@ -130,7 +130,7 @@ hr{
 }
 
 /* *Sign Div */
-/* .signFile{
+.signFile{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +156,7 @@ hr{
     margin: 2% auto;
     display: block;
     width: 50%;
-} */
+}
 /* *Footer Style */
 
 /* footer{
