@@ -159,11 +159,11 @@ hr{
 }
 /* *Footer Style */
 
-/* footer{
+footer{
     display: flex;
     background-color: #1F2937;
     flex-flow: row wrap;
     justify-content: space-evenly;
     padding: 16px;
     color: #fafbf9;
-} */
+}
