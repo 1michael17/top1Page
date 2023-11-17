@@ -19,7 +19,7 @@ nav{
 .logo{
     font-size: 30px;
     font-weight: 900;
-    color: #000000a2;
+    color: #0f3066
 }
 .image{
     display: flex;
@@ -148,14 +148,13 @@ hr{
     padding: 10px;
     margin: 1%;
     background-color: #135dd36c;
-    border: solid 1px rgb(83, 83, 83);
-    color: #1f2937;
-
+    border: solid 1px #535353;
+    color: #ebebeb;
 }
 .signFile button{
     margin: 2% auto;
     display: block;
-    width: 50%;
+    width: 30%;
 }
 /* *Footer Style */
 
