@@ -21,6 +21,9 @@ nav{
     font-weight: 900;
     color: #000000a2;
 }
+.image{
+    display: flex;
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -31,6 +34,7 @@ nav li{
     font-size: 17px;
     padding: 5px;
     border: solid 1px rgb(69, 192, 32);
+
 }
 nav li a{
     text-decoration: none;
@@ -47,7 +51,6 @@ nav li a{
     flex-flow: column wrap;
     justify-content: space-evenly;
     padding: 2%;
-    height: 300px;
 }
 .title h1{
     font-size: 4em;
@@ -60,23 +63,23 @@ main{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    padding: 16px;
 }
 
-.marineAnimals{
-    background-color: rgb(177, 204, 236);
-}
+section{
+    padding: 16px;
+} 
 .marineAnimals, .landAnimal{
     text-align: center;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    /* padding: 2%; */
     box-sizing: border-box;
 }
 
 .marineAnimals h2, .landAnimal h2{
     font-size: 36px;
-    margin: 3% 0%;
+    margin-bottom: 2%;
 }
 .Animals{
     width: 100%;
@@ -100,4 +103,32 @@ main{
     display: block;
     font-size: 17px;
     margin-top: 5px;
+    padding: 1%;
 }
+/* *Quote section */
+
+.quote{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7e8;
+    
+}
+.quote p{
+    width: 70%;
+    flex-shrink: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    border: solid 1px red;
+    padding: 5%;
+}
+.quote p b{
+    display: block;
+    text-align: right;
+}
+
+/* *Sign Div */
+
